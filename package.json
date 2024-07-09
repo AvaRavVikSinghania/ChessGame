@@ -1,0 +1,25 @@
+{
+  "name": "game",
+  "version": "1.0.0",
+  "description": "\"Chess Game Userfriendly\"",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AvaRavVikSinghania/ChessGame.git"
+  },
+  "author": "\"AVANEESH RAV VIKRAM\"",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AvaRavVikSinghania/ChessGame/issues"
+  },
+  "homepage": "https://github.com/AvaRavVikSinghania/ChessGame#readme",
+  "dependencies": {
+    "chess.js": "^1.0.0-beta.8",
+    "ejs": "^3.1.10",
+    "express": "^4.19.2",
+    "socket.io": "^4.7.5"
+  }
+}
