@@ -16,7 +16,11 @@ app.set("view engine", "ejs");
 app.use(express.static(path.join(__dirname, "public")));
 
 app.get("/", (req, res) => {
-    res.render("index", { "title": "Welcome to Chess Game" });
+    res.render("homepage");
+    // res.render("index", { "title": "Welcome to Chess Game" });
+});
+app.get("/game", (req, res) => {
+     res.render("index", { "title": "Welcome to Chess Game" });
 });
 
 io.on("connection", function (uniqusocket) {
